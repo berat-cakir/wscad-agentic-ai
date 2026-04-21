@@ -1,0 +1,46 @@
+[project]
+name = "wscad-agentic-ai"
+version = "1.0.0"
+description = "Agentic AI system for technical support ticket resolution using Microsoft Agent Framework"
+requires-python = ">=3.11"
+dependencies = [
+    "agent-framework-core",
+    "agent-framework-openai",
+    "chromadb",
+    "openai",
+    "pydantic>=2.0",
+    "pydantic-settings>=2.0",
+    "fastapi",
+    "uvicorn[standard]",
+    "rich",
+    "python-dotenv",
+    "pyyaml",
+]
+
+[project.optional-dependencies]
+azure = [
+    "agent-framework-foundry",
+    "azure-identity",
+    "semantic-kernel>=1.38",
+]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "httpx",
+    "ruff",
+]
+
+[project.scripts]
+resolve = "src.main:main"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = ["integration: tests that require OPENAI_API_KEY and make real LLM calls"]

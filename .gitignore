@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.ruff_cache/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ChromaDB local storage
+chroma_data/
+
+# Internal candidate-only docs (not for submission)
+internal/
+
+# Challenge PDF and personal documents
+*.pdf
+
+# Azure Functions local
+.python_packages/
+local.settings.json
+
+# Output files
+results.json

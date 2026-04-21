@@ -1,0 +1,51 @@
+[
+  {
+    "ticket_id": "T-001",
+    "expected_category": "licensing",
+    "expected_priority": "high",
+    "expected_status": "resolved",
+    "expected_sources": ["Common_Errors.md", "Licensing_Offline_Activation.md"]
+  },
+  {
+    "ticket_id": "T-002",
+    "expected_category": "licensing",
+    "expected_priority": "high",
+    "expected_status": "resolved",
+    "expected_sources": ["Licensing_Offline_Activation.md"]
+  },
+  {
+    "ticket_id": "T-003",
+    "expected_category": "installation",
+    "expected_priority": "medium",
+    "expected_status": "clarification_needed",
+    "expected_sources": ["Installation_Requirements.md"]
+  },
+  {
+    "ticket_id": "T-004",
+    "expected_category": "licensing",
+    "expected_priority": "critical",
+    "expected_status": "resolved",
+    "expected_sources": ["Common_Errors.md", "Licensing_Offline_Activation.md"]
+  },
+  {
+    "ticket_id": "T-005",
+    "expected_category": "licensing",
+    "expected_priority": "low",
+    "expected_status": "resolved",
+    "expected_sources": ["Licensing_Offline_Activation.md"]
+  },
+  {
+    "ticket_id": "T-006",
+    "expected_category": "unknown",
+    "expected_priority": "medium",
+    "expected_status": "clarification_needed",
+    "expected_sources": []
+  },
+  {
+    "ticket_id": "T-007",
+    "expected_category": "licensing",
+    "expected_priority": "high",
+    "expected_status": "resolved",
+    "expected_sources": ["Common_Errors.md", "Licensing_Offline_Activation.md"]
+  }
+]

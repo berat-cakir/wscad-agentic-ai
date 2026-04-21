@@ -1,0 +1,37 @@
+[
+  {
+    "ticket_id": "T-003",
+    "text": "The application crashes immediately after installation.",
+    "metadata": {
+      "product": "WSCAD Suite"
+    }
+  },
+  {
+    "ticket_id": "T-004",
+    "text": "I updated the software and now nothing works. Also my license seems expired and the installer may have been corrupted.",
+    "metadata": {
+      "product": "WSCAD Suite",
+      "version": "2.3",
+      "os": "Windows 10"
+    }
+  },
+  {
+    "ticket_id": "T-005",
+    "text": "How do I activate my license on a machine without internet?",
+    "metadata": {}
+  },
+  {
+    "ticket_id": "T-006",
+    "text": "Error.",
+    "metadata": {}
+  },
+  {
+    "ticket_id": "T-007",
+    "text": "After upgrading from Windows 8 to Windows 11 and installing .NET 6, the application starts but shows Error 504 when I try to open a project.",
+    "metadata": {
+      "product": "WSCAD Suite",
+      "version": "2.3",
+      "os": "Windows 11"
+    }
+  }
+]
