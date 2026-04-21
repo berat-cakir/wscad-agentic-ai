@@ -15,7 +15,7 @@ Built on **Microsoft Agent Framework 1.0** — the unified successor to Semantic
 
 ```bash
 # 1. Clone the repository
-git clone <repo-url>
+git clone https://github.com/berat-cakir/wscad-agentic-ai.git
 cd wscad-agentic-ai
 
 # 2. Create and activate a virtual environment
