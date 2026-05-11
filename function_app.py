@@ -7,6 +7,8 @@ Local testing: func start
 Production: Azure Functions Premium (EP1+) for VNET integration and no cold-start.
 """
 
+import src.utils.sitecustomize  # noqa: F401 — must run before agent_framework imports
+
 import json
 import logging
 import time
